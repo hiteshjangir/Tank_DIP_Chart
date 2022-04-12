@@ -20,6 +20,15 @@ classdef Tank
             
         end
         
+        % Function for input length width and height
+        function input_lwh(obj,l,w,h)
+            obj.tank.length = l;
+            obj.tank.width = w;
+            obj.tank.height = h;
+            
+        end
+        
+        
     end
     
 end
